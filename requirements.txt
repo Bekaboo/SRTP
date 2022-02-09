@@ -1,0 +1,15 @@
+certifi==2021.10.8
+interchange==2021.0.4
+monotonic==1.6
+numpy==1.22.2
+packaging==21.3
+pandas==1.4.0
+pansi==2020.7.3
+py2neo==2021.2.3
+Pygments==2.11.2
+pyparsing==3.0.7
+python-dateutil==2.8.2
+pytz==2021.3
+six==1.16.0
+urllib3==1.26.8
+xlrd==2.0.1
