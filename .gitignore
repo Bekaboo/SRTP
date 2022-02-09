@@ -1,0 +1,10 @@
+workshop/
+__pycache__/
+
+*.ipynb
+
+\#*
+
+.*
+!.git/
+!.gitignore

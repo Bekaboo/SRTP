@@ -1,0 +1,1181 @@
+[
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 227,
+            'labels': [
+                'grp'
+            ],
+            'properties': {
+                'name': 'Zhejiang University',
+                'id': '2'
+            }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 228,
+            'labels': [
+                'usr'
+            ],
+            'properties': {
+                'password': 'test',
+                'create_time': '2022-01-04 19:22:41',
+                'account_name': 'mark',
+                'name': 'mark',
+                'id': '228',
+                'email': 'mark@mkmark.net'
+            }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 229,
+            'labels': [
+                'usr'
+            ],
+            'properties': {
+                'password': 'test',
+                'create_time': '2022-01-04 19:22:41',
+                'account_name': 'qinbo',
+                'name': 'qinbo',
+                'id': '2',
+                'email': 'qinbo@intl.zju.edu.cn'
+            }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 230,
+            'labels': [
+                'tag'
+            ],
+            'properties': {
+                'name': 'Knoledge Gragh',
+                'id': '1'
+            }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 231,
+            'labels': [
+                'tag'
+            ],
+            'properties': {
+                'name': 'Computer Science',
+                'id': '2'
+            }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 232,
+            'labels': [
+                'itm',
+            'testCatChild'
+            ],
+            'properties': {
+                'usr_id': '228',
+                'pms': '775',
+                'name': 'testItm1',
+                'itm_cat_name': 'testCatChild',
+                'grp_id': '226',
+                'id': '1',
+                'url': 'None',
+                'itm_cat_id': '1'
+            }
+        }
+        ]
+    }
+},
+{
+    'n': {
+        'nodes': [
+        {
+            'id': 233,
+            'labels': [
+                'itm',
+            'testCatChild'
+            ],
+            'properties': {
+                'usr_id': '1',
+                'pms': '700',
+                'name': 'testItm2',
+                'grp_id': '1',
+                'itm_cat_name': 'testCatChild',
+                'id': '3',
+                'url': 'None',
+                'itm_cat_id': '1'
+            }
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            },
+            'end_node': {
+                'id': 227,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'Zhejiang University',
+                    'id': '2'
+                }
+            },
+            'nodes': [
+            {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            },
+            {
+                'id': 227,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'Zhejiang University',
+                    'id': '2'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 329,
+                'start': 226,
+                'end': 227,
+                'type': 'in',
+                'properties': {
+                    'rel': 'in',
+                    'grp_id2': '2',
+                    'grp_id1': '1'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            'end_node': {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 325,
+                'start': 228,
+                'end': 226,
+                'type': 'in',
+                'properties': {
+                    'usr_id': '1',
+                    'grp_id': '1'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            'end_node': {
+                'id': 230,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Knoledge Gragh',
+                    'id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            {
+                'id': 230,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Knoledge Gragh',
+                    'id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 330,
+                'start': 228,
+                'end': 230,
+                'type': 'has_tag',
+                'properties': {
+                    'usr_id': '1',
+                    'tag_id': '1'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            'end_node': {
+                'id': 227,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'Zhejiang University',
+                    'id': '2'
+                }
+            },
+            'nodes': [
+            {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            {
+                'id': 227,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'Zhejiang University',
+                    'id': '2'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 327,
+                'start': 228,
+                'end': 227,
+                'type': 'in',
+                'properties': {
+                    'usr_id': '1',
+                    'grp_id': '2'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 229,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'qinbo',
+                    'name': 'qinbo',
+                    'id': '2',
+                    'email': 'qinbo@intl.zju.edu.cn'
+                }
+            },
+            'end_node': {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 229,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'qinbo',
+                    'name': 'qinbo',
+                    'id': '2',
+                    'email': 'qinbo@intl.zju.edu.cn'
+                }
+            },
+            {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 326,
+                'start': 229,
+                'end': 226,
+                'type': 'in',
+                'properties': {
+                    'usr_id': '2',
+                    'grp_id': '1'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 229,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'qinbo',
+                    'name': 'qinbo',
+                    'id': '2',
+                    'email': 'qinbo@intl.zju.edu.cn'
+                }
+            },
+            'end_node': {
+                'id': 227,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'Zhejiang University',
+                    'id': '2'
+                }
+            },
+            'nodes': [
+            {
+                'id': 229,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'qinbo',
+                    'name': 'qinbo',
+                    'id': '2',
+                    'email': 'qinbo@intl.zju.edu.cn'
+                }
+            },
+            {
+                'id': 227,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'Zhejiang University',
+                    'id': '2'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 328,
+                'start': 229,
+                'end': 227,
+                'type': 'in',
+                'properties': {
+                    'usr_id': '2',
+                    'grp_id': '2'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 229,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'qinbo',
+                    'name': 'qinbo',
+                    'id': '2',
+                    'email': 'qinbo@intl.zju.edu.cn'
+                }
+            },
+            'end_node': {
+                'id': 231,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Computer Science',
+                    'id': '2'
+                }
+            },
+            'nodes': [
+            {
+                'id': 229,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'qinbo',
+                    'name': 'qinbo',
+                    'id': '2',
+                    'email': 'qinbo@intl.zju.edu.cn'
+                }
+            },
+            {
+                'id': 231,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Computer Science',
+                    'id': '2'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 331,
+                'start': 229,
+                'end': 231,
+                'type': 'has_tag',
+                'properties': {
+                    'usr_id': '2',
+                    'tag_id': '2'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 230,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Knoledge Gragh',
+                    'id': '1'
+                }
+            },
+            'end_node': {
+                'id': 231,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Computer Science',
+                    'id': '2'
+                }
+            },
+            'nodes': [
+            {
+                'id': 230,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Knoledge Gragh',
+                    'id': '1'
+                }
+            },
+            {
+                'id': 231,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Computer Science',
+                    'id': '2'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 333,
+                'start': 230,
+                'end': 231,
+                'type': 'in',
+                'properties': {
+                    'tag_id1': '1',
+                    'tag_id2': '2',
+                    'rel': 'in'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'end_node': {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 322,
+                'start': 232,
+                'end': 226,
+                'type': 'belongs_to',
+                'properties': {
+
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'end_node': {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            'nodes': [
+            {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 321,
+                'start': 232,
+                'end': 228,
+                'type': 'belongs_to',
+                'properties': {
+
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'end_node': {
+                'id': 230,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Knoledge Gragh',
+                    'id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            {
+                'id': 230,
+                'labels': [
+                    'tag'
+                ],
+                'properties': {
+                    'name': 'Knoledge Gragh',
+                    'id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 332,
+                'start': 232,
+                'end': 230,
+                'type': 'has_tag',
+                'properties': {
+                    'tag_id': '1',
+                    'itm_id': '1'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 233,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '1',
+                    'pms': '700',
+                    'name': 'testItm2',
+                    'grp_id': '1',
+                    'itm_cat_name': 'testCatChild',
+                    'id': '3',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'end_node': {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 233,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '1',
+                    'pms': '700',
+                    'name': 'testItm2',
+                    'grp_id': '1',
+                    'itm_cat_name': 'testCatChild',
+                    'id': '3',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            {
+                'id': 226,
+                'labels': [
+                    'grp'
+                ],
+                'properties': {
+                    'name': 'dskezju',
+                    'id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 324,
+                'start': 233,
+                'end': 226,
+                'type': 'belongs_to',
+                'properties': {
+
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 233,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '1',
+                    'pms': '700',
+                    'name': 'testItm2',
+                    'grp_id': '1',
+                    'itm_cat_name': 'testCatChild',
+                    'id': '3',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'end_node': {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'nodes': [
+            {
+                'id': 233,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '1',
+                    'pms': '700',
+                    'name': 'testItm2',
+                    'grp_id': '1',
+                    'itm_cat_name': 'testCatChild',
+                    'id': '3',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            {
+                'id': 232,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '228',
+                    'pms': '775',
+                    'name': 'testItm1',
+                    'itm_cat_name': 'testCatChild',
+                    'grp_id': '226',
+                    'id': '1',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 334,
+                'start': 233,
+                'end': 232,
+                'type': 'follow',
+                'properties': {
+                    'itm_id1': '3',
+                    'itm_id2': '1',
+                    'rel': 'follow'
+                }
+            }
+            ]
+        }
+        ]
+    }
+},
+{
+    'p': {
+        'paths': [
+        {
+            'start_node': {
+                'id': 233,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '1',
+                    'pms': '700',
+                    'name': 'testItm2',
+                    'grp_id': '1',
+                    'itm_cat_name': 'testCatChild',
+                    'id': '3',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            'end_node': {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            },
+            'nodes': [
+            {
+                'id': 233,
+                'labels': [
+                    'itm',
+                'testCatChild'
+                ],
+                'properties': {
+                    'usr_id': '1',
+                    'pms': '700',
+                    'name': 'testItm2',
+                    'grp_id': '1',
+                    'itm_cat_name': 'testCatChild',
+                    'id': '3',
+                    'url': 'None',
+                    'itm_cat_id': '1'
+                }
+            },
+            {
+                'id': 228,
+                'labels': [
+                    'usr'
+                ],
+                'properties': {
+                    'password': 'test',
+                    'create_time': '2022-01-04 19:22:41',
+                    'account_name': 'mark',
+                    'name': 'mark',
+                    'id': '228',
+                    'email': 'mark@mkmark.net'
+                }
+            }
+            ],
+            'relationships': [
+            {
+                'id': 323,
+                'start': 233,
+                'end': 228,
+                'type': 'belongs_to',
+                'properties': {
+
+                }
+            }
+            ]
+        }
+        ]
+    }
+}
+]
