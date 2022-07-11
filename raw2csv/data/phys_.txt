@@ -1,0 +1,177 @@
+Chapter 3 Motion_Along_a_Straight_Line
+3.1 Position_Displacement_and_Average_Velocity
+3.2 Instantaneous_Velocity_and_Speed
+3.3 Average_and_Instantaneous_Acceleration
+3.4 Motion_with_Constant_Acceleration
+3.5 Free_Fall
+3.6 Finding_Velocity_and_Displacement_from_Acceleration
+Chapter 4 Motion_in_Two_and_Three_Dimensions
+4.1 Displacement_and_Velocity_Vectors
+4.2 Acceleration_Vector
+4.3 Projectile_Motion
+4.4 Uniform_Circular_Motion
+4.5 Relative_Motion_in_One_and_Two_Dimensions
+Chapter 5 Newtons_Laws_of_Motion
+5.1 Forces
+5.2 Newtons_First_Law
+5.3 Newtons_Second_Law
+5.4 Mass_and_Weight
+5.5 Newtons_Third_Law
+5.6 Common_Forces
+5.7 Drawing_Free_Body_Diagrams
+Chapter 6 Applications_of_Newtons_Laws
+6.1 Solving_Problems_with_Newtons_Laws
+6.2 Friction
+6.3 Centripetal_Force
+6.4 Drag_Force_and_Terminal_Speed
+Chapter 7 Work_and_Kinetic_Energy
+7.1 Work
+7.2 Kinetic_Energy
+7.3 Work_Energy_Theorem
+7.4 Power
+Chapter 8 Potential_Energy_and_Conservation_of_Energy
+8.1 Potential_Energy_of_a_System
+8.2 Conservative_and_Non_Conservative_Forces
+8.3 Conservation_of_Energy
+8.4 Potential_Energy_Diagrams_and_Stability
+8.5 Sources_of_Energy
+Chapter 9 Linear_Momentum_and_Collisions
+9.1 Linear_Momentum
+9.2 Impulse_and_Collisions
+9.3 Conservation_of_Linear_Momentum
+9.4 Types_of_Collisions
+9.5 Collisions_in_Multiple_Dimensions
+9.6 Center_of_Mass
+9.7 Rocket_Propulsion
+Chapter 10 Fixed_Axis_Rotation
+10.1 Rotational_Variables
+10.2 Rotation_with_Constant_Angular_Acceleration
+10.3 Relating_Angular_and_Translational_Quantities
+10.4 Moment_of_Inertia_and_Rotational_Kinetic_Energy
+10.5 Calculating_Moments_of_Inertia
+10.6 Torque
+10.7 Newtons_Second_Law_for_Rotation
+10.8 Work_and_Power_for_Rotational_Motion
+Chapter 11 Angular_Momentum
+11.1 Rolling_Motion
+11.2 Angular_Momentum
+11.3 Conservation_of_Angular_Momentum
+11.4 Precession_of_a_Gyroscope
+Chapter 12 Static_Equilibrium_and_Elasticity
+12.1 Conditions_for_Static_Equilibrium
+12.2 Examples_of_Static_Equilibrium
+12.3 Stress_Strain_and_Elastic_Modulus
+12.4 Elasticity_and_Plasticity
+Chapter 13 Gravitation
+13.1 Newtons_Law_of_Universal_Gravitation
+13.2 Gravitation_Near_Earths_Surface
+13.3 Gravitational_Potential_Energy_and_Total_Energy
+13.4 Satellite_Orbits_and_Energy
+13.5 Keplers_Laws_of_Planetary_Motion
+13.6 Tidal_Forces
+13.7 Einsteins_Theory_of_Gravity
+Chapter 14 Fluid_Mechanics
+14.1 Fluids_Density_and_Pressure
+14.2 Measuring_Pressure
+14.3 Pascals_Principle_and_Hydraulics
+14.4 Archimedes_Principle_and_Buoyancy
+14.5 Fluid_Dynamics
+14.6 Bernoullis_Equation
+14.7 Viscosity_and_Turbulence
+Chapter 15 Oscillations
+15.1 Simple_Harmonic_Motion
+15.2 Energy_in_Simple_Harmonic_Motion
+15.3 Comparing_Simple_Harmonic_Motion_and_Circular_Motion
+15.4 Pendulums
+15.5 Damped_Oscillations
+15.6 Forced_Oscillations
+Chapter 16 Waves
+16.1 Traveling_Waves
+16.2 Mathematics_of_Waves
+16.3 Wave_Speed_on_a_Stretched_String
+16.4 Energy_and_Power_of_a_Wave
+16.5 Standing_Waves_and_Resonance
+Chapter 17 Electric_Charges_and_Fields
+17.1 Electric_Charge
+17.2 Conductors_Insulators_and_Charging_by_Induction
+17.3 Coulombs_Law
+17.4 Electric_Field
+17.5 Calculating_Electric_Fields_of_Charge_Distributions
+17.6 Electric_Field_Lines
+Chapter 18 Gausss_Law
+18.1 Electric_Flux
+18.2 Explaining_Gausss_Law
+18.3 Applying_Gausss_Law
+18.4 Conductors_in_Electrostatic_Equilibrium
+Chapter 19 Electric_Potential
+19.1 Electric_Potential_Energy
+19.2 Electric_Potential_and_Potential_Difference
+19.3 Calculations_of_Electric_Potential
+19.4 Determining_Field_from_Potential
+19.5 Equipotential_Surfaces_and_Conductors
+Chapter 20 Capacitance
+20.1 Capacitors_and_Capacitance
+20.2 Capacitors_in_Series_and_in_Parallel
+20.3 Energy_Stored_in_a_Capacitor
+20.4 Capacitor_with_a_Dielectric
+Chapter 21 Current_and_Resistance
+21.1 Electrical_Current
+21.2 Model_of_Conduction_in_Metals
+21.3 Resistivity_and_Resistance
+21.4 Ohms_Law
+21.5 Electrical_Energy_and_Power
+21.6 Superconductors
+Chapter 22 Direct_Current_Circuits
+22.1 Electromotive_Force
+22.2 Resistors_in_Series_and_Parallel
+22.3 Kirchhoffs_Rules
+22.4 Electrical_Measuring_Instruments
+22.5 RC_Circuits
+22.6 Household_Wiring_and_Electrical_Safety
+Chapter 23 Magnetic_Forces_and_Fields
+23.1 Magnetism_and_Its_Historical_Discoveries
+23.2 Magnetic_Fields_and_Lines
+23.3 Motion_of_a_Charged_Particle_in_a_Magnetic_Field
+23.4 Magnetic_Force_on_a_Current_Carrying_Conductor
+23.5 Force_and_Torque_on_a_Current_Loop
+23.6 The_Hall_Effect
+23.7 Applications_of_Magnetic_Forces_and_Fields
+Chapter 24 Sources_of_Magnetic_Fields
+24.1 The_Biot_Savart_Law
+24.2 Magnetic_Field_Due_to_a_Thin_Straight_Wire
+24.3 Magnetic_Force_between_Two_Parallel_Currents
+24.4 Magnetic_Field_of_a_Current_Loop
+24.5 Amperes_Law
+24.6 Solenoids_and_Toroids
+Chapter 25 Electromagnetic_Induction
+25.1 Faradays_Law
+25.2 Lenzs_Law
+25.3 Motional_Emf
+25.4 Induced_Electric_Fields
+25.5 Eddy_Currents
+25.6 Electric_Generators_and_Back_Emf
+25.7 Applications_of_Electromagnetic_Induction
+Chapter 26 Inductance
+26.1 Mutual_Inductance
+26.2 Self_Inductance_and_Inductors
+26.3 Energy_in_a_Magnetic_Field
+26.4 RL_Circuits
+26.5 Oscillations_in_an_LC_Circuit
+26.6 RLC_Series_Circuits
+Chapter 27 Alternating_Current_Circuits
+27.1 AC_Sources
+27.2 Simple_AC_Circuits
+27.3 RLC_Series_Circuits_with_AC
+27.4 Power_in_an_AC_Circuit
+27.5 Resonance_in_an_AC_Circuit
+27.6 Transformers
+Chapter 28 Electromagnetic_Waves
+28.1 Maxwells_Equations_and_Electromagnetic_Waves
+28.2 Plane_Electromagnetic_Waves
+28.3 Energy_Carried_by_Electromagnetic_Waves
+28.4 The_Electromagnetic_Spectrum
+Chapter 29 Geometric_Optics
+29.1 Polarization
+29.2 Reflection_and_Refraction
+29.3 Lenses
+29.4 Mirrors
