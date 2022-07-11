@@ -5,8 +5,9 @@ import data2neo
 
 account = input("Your account to neo4j server: ")
 passwd = input("Your password to neo4j server: ")
+
 handler = data2neo.FromFile(filepath=os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                            "data/tree-utf-8.csv"), graph_auth=(account, passwd))
+                            "../raw2csv/data/data_KG.csv"), graph_auth=(account, passwd))
 handler.graph.delete_all()
 handler.file2nodes()
 handler.file2relations()
