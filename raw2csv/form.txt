@@ -1,0 +1,33 @@
+The input documentary data (.txt) has the form as follows:
+The input should not have ' or ".
+
++--------------------------+
+|        Input Structure         |
+|               Inclusion            |
++--------------------------+
+Chapter 1 Electric Charges and Fields
+1.1 Electric Charge
+1.2 Conductors Insulators and Charging by Induction
+Chapter 2 Gausss Law
+2.1 Electric Flux
+2.2 Explaining Gausss Law
+
++--------------------------+
+|   Sub-Chap Relationship  |
++--------------------------+
+Electricity 1 2 3
+
+Explanation:
+Electricity is for sub-topic
+1, 2, 3 are for chapter code
+
++--------------------------+
+|        Input Structure         |
+|         Pre-requisite            |
++--------------------------+
+1.1 1.2
+1.1 1.3
+1.2 1.4
+1.3 1.4
+
+-- SRTPX0522-PJTEAM on Jul 11, 2022

@@ -51,7 +51,7 @@ class File2Neo(object):
             clause = "MERGE (:%s {%s})"\
                 % (self._parse_node_labels(i),
                    self._parse_node_props(i))
-            print(clause)
+            #print(clause)
             clause = clause.replace("'nan'", "NULL")
             graph.run(clause)
 
@@ -77,5 +77,5 @@ class File2Neo(object):
                            related_to_node_labels,
                            related_to_node_props,
                            relation_type)
-                    print(clause)
+                    #print(clause)
                     graph.run(clause)
