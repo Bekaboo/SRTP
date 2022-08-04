@@ -10,7 +10,6 @@ import os
 import re
 import csv
 
-
 """
 
 dict2csv is a script for converting some information saved in a dict to a csv,
@@ -66,6 +65,7 @@ def dict2csv(info_dict):
             sub = "name:'" + sub + "'"
             f.write(sub + ',Sub,' + chap + '\n')
         # 2. Process the chap-know relationship, inclusion.
+        id_ = 2
         for chap in chap_list:
             chap_know_list = []
             chap_name = chap_list[chap]
@@ -78,13 +78,14 @@ def dict2csv(info_dict):
                 chap_know_list.append(temp)
             kpt = '|'.join(chap_know_list)
             chap_name = "name:'" + chap_name + "'"
+            id_ += 1
+            chap_name = chap_name + ";" + "id:'" + str(id_) + "'"
             f.write(chap_name + ',Chap,' + kpt + '\n')
         # 3. Add Kpt nodes
         for know in know_list:
             know_name = know_list[know]
             know_with_info = "name:'" + know_name + "'"
-            know_with_info = know_with_info + ";" + "abl:'" + "0" + "'"
-            know_with_info = know_with_info + ";" + "kc:'" + "0" + "'"
+            know_with_info = know_with_info + ";" + "id:'" + know + "'"
             f.write(know_with_info + ',Kpt' + '\n')
         # 4. Process the pre-requisite relationship.
         for u1 in prq.keys():
