@@ -9,11 +9,21 @@ Created on Mon Jul 11 09:56:30 2022
 import os
 import re
 import csv
+import json
 
-<<<<<<< HEAD
-=======
+def SaveDataset(filename, dataset):
+    dict_json = json.dumps(dataset)
+    with open(filename,'w+') as f:
+        f.write(dict_json)
+        f.close()
 
->>>>>>> 69c4ad2b6994698586b36a2a744014786c676d10
+def LoadDataset(filename):
+    with open(filename,'r+') as f:
+        read_dict = f.read()
+        f.close()
+    read_dict = json.loads(read_dict)
+    return read_dict
+
 """
 
 dict2csv is a script for converting some information saved in a dict to a csv,
@@ -69,10 +79,7 @@ def dict2csv(info_dict):
             sub = "name:'" + sub + "'"
             f.write(sub + ',Sub,' + chap + '\n')
         # 2. Process the chap-know relationship, inclusion.
-<<<<<<< HEAD
         id_ = 2
-=======
->>>>>>> 69c4ad2b6994698586b36a2a744014786c676d10
         for chap in chap_list:
             chap_know_list = []
             chap_name = chap_list[chap]
@@ -85,22 +92,17 @@ def dict2csv(info_dict):
                 chap_know_list.append(temp)
             kpt = '|'.join(chap_know_list)
             chap_name = "name:'" + chap_name + "'"
-<<<<<<< HEAD
             id_ += 1
             chap_name = chap_name + ";" + "id:'" + str(id_) + "'"
-=======
->>>>>>> 69c4ad2b6994698586b36a2a744014786c676d10
             f.write(chap_name + ',Chap,' + kpt + '\n')
         # 3. Add Kpt nodes
+        kc = LoadDataset('./raw2csv/data/kc.json')
         for know in know_list:
             know_name = know_list[know]
             know_with_info = "name:'" + know_name + "'"
-<<<<<<< HEAD
             know_with_info = know_with_info + ";" + "id:'" + know + "'"
-=======
-            know_with_info = know_with_info + ";" + "abl:'" + "0" + "'"
-            know_with_info = know_with_info + ";" + "kc:'" + "0" + "'"
->>>>>>> 69c4ad2b6994698586b36a2a744014786c676d10
+            for i in ['NT','EN','MT','EL','MG']:
+                know_with_info = know_with_info + ";" + i + ":'" + kc[know][i] + "'"
             f.write(know_with_info + ',Kpt' + '\n')
         # 4. Process the pre-requisite relationship.
         for u1 in prq.keys():

@@ -77,20 +77,11 @@ Chapter 14 Fluid_Mechanics
 14.4 Archimedes_Principle_and_Buoyancy
 14.5 Fluid_Dynamics
 14.6 Bernoullis_Equation
-<<<<<<< HEAD
-=======
-14.7 Viscosity_and_Turbulence
->>>>>>> 69c4ad2b6994698586b36a2a744014786c676d10
 Chapter 15 Oscillations
 15.1 Simple_Harmonic_Motion
 15.2 Energy_in_Simple_Harmonic_Motion
 15.3 Comparing_Simple_Harmonic_Motion_and_Circular_Motion
 15.4 Pendulums
-<<<<<<< HEAD
-=======
-15.5 Damped_Oscillations
-15.6 Forced_Oscillations
->>>>>>> 69c4ad2b6994698586b36a2a744014786c676d10
 Chapter 16 Waves
 16.1 Traveling_Waves
 16.2 Mathematics_of_Waves
